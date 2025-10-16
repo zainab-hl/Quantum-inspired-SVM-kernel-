@@ -11,6 +11,7 @@ We explore how **amplitude encoding**, inspired by quantum computing, can map cl
 The idea comes from the growing interest in quantum machine learning (QML), where quantum computers or quantum-inspired algorithms can potentially offer advantages for classification and pattern recognition.  
 
 While real quantum hardware is limited, quantum-inspired algorithms like amplitude encoding and quantum kernels allow us to simulate quantum computations classically. This enables experimentation and benchmarking without needing a quantum computer.
+
 ---
 
 ## Quantum Fundamentals (Simulated)
@@ -22,9 +23,12 @@ where α, β ∈ ℂ and |α|² + |β|² = 1.
 For a system of `n` qubits, the state vector lives in a 2ⁿ-dimensional Hilbert space.
 
 **Amplitude encoding:** maps classical feature vectors x ∈ ℝᵈ into a quantum state:  
-$$
-|x\rangle = \frac{1}{\|x\|} \sum_{i=1}^{d} x_i \, |i\rangle
-$$
+|x> = (1 / ||x||) * Σ_{i=1}^{d} x_i |i>
+
+where:
+- ||x|| is the Euclidean norm of x
+- |i> represents the i-th basis state
+- This ensures the state is normalized: <x|x> = 1
 
 
 
