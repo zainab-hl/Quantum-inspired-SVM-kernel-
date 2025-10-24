@@ -24,7 +24,9 @@ For a system of `n` qubits, the state vector lives in a 2ⁿ-dimensional Hilbert
 
 **Amplitude encoding:** maps classical feature vectors x ∈ ℝᵈ into a quantum state: 
 <p align="center">
+  $$
 ![equation](https://latex.codecogs.com/svg.image?|x\rangle=\frac{1}{\|x\|}\sum_{i=1}^{d}x_i|i\rangle&space;)
+  $$
 </p>
 
 where:
