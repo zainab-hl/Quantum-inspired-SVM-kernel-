@@ -66,9 +66,8 @@ We tested Quantum Kernel SVM against **RBF SVM** and **Random Forest**.
 - Struggles on low-dimensional or noisy datasets (Iris, LFW).  
 - Execution time is competitive on small datasets; Random Forest is slower for large datasets.
 
-### Benchmark Results
+#### Benchmark Results
 
-#### Classification Results
 
 | Dataset        | Classifier          | Accuracy ± Std | Precision | Recall | F1-score | Time (s) |
 |----------------|------------------|----------------|-----------|--------|----------|-----------|
