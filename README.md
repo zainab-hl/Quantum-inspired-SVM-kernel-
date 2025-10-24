@@ -58,7 +58,7 @@ Even though this is computed classically, it retains the properties of a quantum
 
 ## Benchmarks
 
-We tested Quantum Kernel SVM against **RBF SVM** and **Random Forest**.
+We tested Quantum Kernel SVM against RBF SVM and Random Forest.
 
 **Key Observations:**
 
