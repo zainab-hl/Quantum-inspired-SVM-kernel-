@@ -23,7 +23,7 @@ where α, β ∈ ℂ and |α|² + |β|² = 1.
 For a system of `n` qubits, the state vector lives in a 2ⁿ-dimensional Hilbert space.
 
 **Amplitude encoding:** maps classical feature vectors x ∈ ℝᵈ into a quantum state:  
-![equation]([https://latex.codecogs.com/svg.image?|x>=\frac{1}{\left\|x\right\|}\sum&space;_{i=1}^{d}x_i|i>)](https://latex.codecogs.com/svg.image?\;|x\rangle=\frac{1}{\|x\|}\sum_{i=1}^{d}x_i|i\rangle\;)
+![equation](https://latex.codecogs.com/svg.image?|x\rangle=\frac{1}{\|x\|}\sum_{i=1}^{d}x_i|i\rangle&space;)
 
 
 where:
