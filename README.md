@@ -94,10 +94,10 @@ We tested Quantum Kernel SVM against RBF SVM and Random Forest.
 
 
 
-### Key Takeaways
-- Quantum-inspired kernels can emulate high-dimensional mappings that are potentially useful for SVM classification.  
-- Classical simulations of quantum kernels are fast for moderate dataset sizes, but real quantum advantage would require actual quantum hardware.  
-- Performance heavily depends on dataset size, feature dimensionality, and class balance.
+### Conclusion
+The amplitude encoding used in this project is a classical simulation: data vectors are normalized and embedded into a 2ⁿ-dimensional space, but no real quantum state preparation or quantum gates are involved. Therefore, this method should be considered quantum-inspired, not a true quantum algorithm.
+Future work may include replacing this simulated amplitude encoding with more expressive quantum-inspired feature maps, such as rotational (angle) encoding or entanglement-based circuits. These encodings can be implemented using quantum frameworks like Qiskit or PennyLane to generate genuine quantum kernels, allowing a more realistic comparison between simulated and true quantum-enhanced SVMs.
+
 
 
 
