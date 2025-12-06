@@ -1,4 +1,3 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17447852.svg)](https://doi.org/10.5281/zenodo.17447852)
 
 # Quantum-inspired Kernel SVM Benchmarking on scikit-learn Datasets
 
